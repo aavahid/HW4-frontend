@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    font-family: Roboto;
+}
 .header{
 
     background-color: #181818;
@@ -13,7 +16,7 @@
     
 }
 .header>.header__navbar{
-    background-color: grey;
+    /* background-color: green; */
     width: 1097px;
     height: 119px;
     display: flex;
@@ -22,21 +25,37 @@
     flex-direction: row;
 }
 .header>.header__navbar>.header__logo{
-    margin: 20px 116px 21px 30px;
     padding: 10px;
+    gap: 10px;
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
 }
 .header>.header__navbar>.header__logo> img{
-   
+    width: 186px;
+    height: 58px;
+    border: 10px;
+    border-color: none;
+   background-color:  lightgray 50% / contain no-repeat;
+
 }
 .header>.header__navbar>.header__navbar_menu{
-    margin: 37.5px 173.5px 37.5px 116.5px;
+    padding:37.5px 173.5px 37.5px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 31px;
+    color: var(--light-text, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    
+}
+a{
+    text-decoration: none;
 }
 .header>.header__navbar>.header__navbar_menu>.header__link{
     color: #FFFFFF;
@@ -44,24 +63,23 @@
     padding: 10px;
     align-items: center;
     gap: 10px;
+    
 }
 .header>.header__navbar>.header__button>{
-    margin: 33px 39px 34px 173.5px;
-    padding: 20px 36px;
+    padding: 33px 39px 34px 919px ;
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: center;
 }
 .header>.header__navbar>.header__button>.header__loginButton{
-    display: inline-flex;
+    display: flex;
     height: 52px;
     padding: 20px 36px;
     align-items: center;
-    flex-shrink: 0;
+    justify-content: center;
     cursor: pointer;
     color: white;
     border: 1px solid var(--light-text, #FFF);
     background-color: black;
-    
-
 }
