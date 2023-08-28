@@ -13,6 +13,7 @@ html{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 35px;
     
 }
 .header>.header__navbar{
@@ -132,6 +133,7 @@ a{
     display: flex;
     padding: 10px 30px;
     align-items: center;
+    border: none;
     background: var(--primary, #4452FE);
     box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
 }
@@ -166,4 +168,19 @@ a{
     line-height: 25px;
     letter-spacing: 0.2px;
     cursor: pointer;
+}
+.header>.header__screens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header>.header__screens>.header__dash__board{
+
+}
+.header>.header__screens>.header__chat__bot{
+
+}
+.header>.header__screens>.header__boards{
+    
 }
