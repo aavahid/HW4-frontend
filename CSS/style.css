@@ -193,3 +193,80 @@ a{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 99.15%);
     z-index: 1;
 }
+.feature{
+    display: flex;
+    padding: 62px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    background: var(--dark-background, #181818);
+}
+.feature>.feature__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+.feature>.feature__content>.feature__heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+.feature>.feature__content>.feature__heading>.feature__second__headline{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.feature>.feature__content>.feature__heading>.feature__second__headline>p{
+    color: var(--light-text, #FFF);
+    font-family: Roboto;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+}
+.feature>.feature__content>.feature__heading>.feature__subheading{
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    gap: 10px;
+}
+.feature>.feature__content>.feature__heading>.feature__subheading>p{
+    color: var(--light-text, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.feature>.feature__frame{
+    display: flex;
+    row-gap: 27px;
+}
+.feature>.feature__frame>.frame__left{
+    position: relative;
+    width: 752px;
+    height: 759px;
+}
+.feature>.feature__frame>.frame__left>:first-child{
+    width: 696px;
+    height: 659px;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}
+
+.feature>.feature__frame>.frame__left>:last-child{
+    position: absolute;
+    width: 400px;
+    height: 276px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+}
