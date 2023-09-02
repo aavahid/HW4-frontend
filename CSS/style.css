@@ -268,8 +268,13 @@ a{
     height: 276px;
     z-index: 2;
 }
-
+.feature__frame>.frame__right{
+    display: flex;
+    align-items: center;
+}
 .feature__frame>.frame__right>.right__contents{
+    width: 269px;
+    height: 611px;
     display: flex;
     padding: 20px;
     flex-direction: column;
@@ -295,6 +300,7 @@ a{
     align-items: flex-start;
     gap: 10px;
 }
+
 .feature__frame>.frame__right>.right__contents>.contents__top-textblock>.textblock__headline>.headline__restaurant>svg{
     padding: 19px 3px;
     gap: 10px;
@@ -341,6 +347,13 @@ a{
     align-items: flex-start;
     
 }
+.feature__frame>.frame__right>.right__contents>.contents__middle-textblock>.textblock__headline>.headline__restaurant{
+    display: flex;
+    padding: 19px 3px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
 .feature__frame>.frame__right>.right__contents>.contents__middle-textblock>.textblock__headline>.headline__aliens{
     display: flex;
     padding: 19px 3px;
@@ -348,7 +361,14 @@ a{
     align-items: flex-start;
     gap: 10px;
 }
-.feature__frame>.frame__right>.right__contents>.contents__middle-textblock>.textblock__headline>.headline__alienst>svg{
+.feature__frame>.frame__right>.right__contents>.contents__middle-textblock>.textblock__headline>.headline__vector{
+    display: flex;
+    padding: 19px 3px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.feature__frame>.frame__right>.right__contents>.contents__middle-textblock>.textblock__headline>.headline__aliens>svg{
     padding: 19px 3px;
     gap: 10px;
 }
@@ -376,6 +396,20 @@ a{
     display: flex;
     align-items: flex-start;
     
+}
+.feature__frame>.frame__right>.right__contents>.contents__bottom-textblock>.textblock__headline>.headline__vector{
+    display: flex;
+    padding: 19px 3px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.feature__frame>.frame__right>.right__contents>.contents__bottom-textblock>.textblock__headline>.headline__vector{
+    display: flex;
+    padding: 19px 3px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
 .feature__frame>.frame__right>.right__contents>.contents__bottom-textblock>.textblock__headline>.headline__vector{
     display: flex;
